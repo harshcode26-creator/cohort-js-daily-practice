@@ -1,23 +1,23 @@
 
-// let password = 2324;
+let password = 2324;
 
-// let validatepass = () => {
-//   for (let i = 3; i >= 1; i--) {
-//     let userpass = prompt("enter password: ");
-//     if(password === Number(userpass)){
-//       return true;
-//     }else{
-//       alert(`password is wrong`);
-//       alert(`you have ${i} reamining`);
-//     }
-//   }
-// }
+let validatepass = () => {
+  for (let i = 2; i >= 0; i--) {
+    let userpass = prompt("enter password: ");
+    if(password === Number(userpass)){
+      return true;
+    }else{
+      alert(`password is wrong`);
+      alert(`you have ${i} reamining`);
+    }
+  }
+}
 
-// if(validatepass() === true){
-//   alert(`login succesfull`);
-// }else{
-//   alert(`3 attempts finished, login blocked`);
-// }
+if(validatepass() === true){
+  alert(`login succesfull`);
+}else{
+  alert(`3 attempts finished, login blocked`);
+}
 
 
 // let count = 0;
